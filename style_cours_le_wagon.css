@@ -1,0 +1,73 @@
+body {
+    background-color: #F7F9FC  ;
+    color:#575F7E;
+    font-family: 'Lora';
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+ 
+    
+}
+
+h1,h2 {
+    font-family :'Roboto';
+
+}
+
+h1 {
+    color: #575F7E;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2{
+    color: #7ECE90;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: yellow;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+p{
+    text-justify: center;
+}
+
+.cadre {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;             /* met les <li> en ligne */
+  justify-content: center;   /* centre les icônes */
+  gap: 30px;                 /* espace entre les icônes */
+  list-style: none;          /* enlève les puces */
+  padding: 0;                /* enlève le décalage à gauche par défaut */
+  font-size: 32px;           /* taille des icônes */
+}
